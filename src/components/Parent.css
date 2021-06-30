@@ -1,0 +1,6 @@
+.parent {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  background-color: hsla(256, 90%, 51%, 0.281);
+}

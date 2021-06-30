@@ -1,0 +1,87 @@
+.addTransactions {
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+}
+
+form {
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  max-width: 900px;
+  height: 600px;
+}
+
+button {
+  padding: 10px;
+  width: 40%;
+  margin: 0 auto;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  color: blue;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 200px;
+}
+
+.selection {
+  position: relative;
+  width: 40%;
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  justify-content: space-around;
+}
+.radio {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 7px solid rgb(1, 234, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.radio:checked {
+  background-color: rgb(60, 0, 255);
+}
+
+.input_transaction {
+  width: 80%;
+  border: 1px solid black;
+  margin: 1px auto;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 7px 15px 45px 0px rgba(0, 0, 0, 0.78);
+  -webkit-box-shadow: -7px 15px 45px 0px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: -7px 15px 45px 0px rgba(0, 0, 0, 0.78);
+}
+
+.input_transaction::placeholder {
+  font-family: "Indie Flower";
+  font-size: 20px;
+  color: black;
+}
+.input_transaction:focus {
+  background-color: rgba(205, 75, 63, 0.863);
+}
+.input_transaction:focus::placeholder {
+  color: wheat;
+}
+
+.input_transaction:focus {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.selection {
+  width: 100%;
+  font-size: 17px;
+  font-family: "Indie Flower";
+}

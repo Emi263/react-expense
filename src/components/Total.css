@@ -1,0 +1,19 @@
+.total {
+  width: 100%;
+  position: relative;
+  height: 200px;
+  font-weight: bold;
+  display: grid;
+  font-size: 18px;
+  grid-template-columns: 2fr 2fr;
+  align-items: center;
+  justify-items: center;
+  background-color: rgba(0, 225, 255, 0.192);
+}
+
+.total:nth-last-child(1) {
+  font-weight: bold;
+}
+.balance {
+  grid-column: span 2 / auto;
+}

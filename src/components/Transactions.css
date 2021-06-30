@@ -1,0 +1,31 @@
+.transaction {
+  background: #ffe259; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffa751,
+    #ffe259
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffa751,
+    #ffe259
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: blueviolet;
+  font-size: 18px;
+  padding: 1rem;
+  border-bottom: dashed 1px royalblue;
+  max-width: 900px;
+}
+
+.transaction .minus {
+  color: red;
+}
+
+.transaction .plus {
+  color: green;
+}
